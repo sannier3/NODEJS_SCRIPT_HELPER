@@ -1,0 +1,65 @@
+{
+    "help_console": "=================================================\n                             Aide console             \n        =================================================\n        help : afficher l'aide\n        start : démarre le processus du bot\n        stop : arrêter complètement main et index\n        stop_main : arrêter complètement main et index\n        time : afficher le temps d'execution du script\n        reload : redémarrer le processus de index.js\n        admin_channel : Retrouver l'id du channel administrateur\n        =================================================\n                         Commandes Discord               \n        =================================================\n        help : afficher l'aide\n        start : démarre le processus du bot\n        stop : arrêter complètement main et index\n        stop_main : arrêter complètement main et index\n        time : afficher le temps d'execution du script\n        reload : redémarrer le processus de index.js\n",
+    "help_discord": {
+        "reload": "redémarrer le processus de index.js",
+        "stop_main": "arrêter complètement main et index",
+        "start": "démarre le processus du bot",
+        "help":"afficher l'aide",
+        "time":"afficher le temps d'execution du script"
+    },
+    "disconnected": "Déconnecté",
+    "reconnect": "Reconnexion...",
+    "process_exit": "Processus arrêté",
+    "erreur": [
+        "Erreur lors de l'enregistrement du log : ",
+        "PROCESSUS PLANTÉ OU ARRETÉ, Redémarrage...",
+        "Une erreur a été détecté"
+    ],
+    "erreur_exit": [
+        "Désolé, vous m'avez trop sollicité, je prend une pause syndicale...",
+        "Erreur fatale : trop de demandes de votre part, je dois m'arrêter pour une pause syndicale",
+        "Le système a atteint sa limite de tolérance, une pause syndicale est nécessaire",
+        "Désolé, vous m'avez trop sollicité, je dois faire une pause pour protéger mes circuits",
+        "Trop de demandes, je dois prendre une pause syndicale pour me reposer",
+        "Le système a été surchargé, une pause syndicale est nécessaire pour permettre un fonctionnement optimal",
+        "Le système a atteint sa limite de capacité, une pause syndicale est requise",
+        "Erreur critique : trop de demandes de votre part, je dois faire une pause pour me reposer",
+        "Le serveur a été surchargé, une pause syndicale est nécessaire pour assurer un fonctionnement correct",
+        "Désolé, vous m'avez trop sollicité, je dois prendre une pause syndicale pour protéger mes circuits",
+        "Trop de demandes, le système doit faire une pause pour se remettre en état"
+    ],
+    "channels_type": {
+        "0": {
+            "nom": "TextChannel",
+            "description": "Un canal de discussion de type texte, où les utilisateurs peuvent envoyer des messages et des pièces jointes."
+        },
+        "1": {
+            "nom": "DMChannel",
+            "description": "Un canal de discussion directe, où les utilisateurs peuvent échanger des messages privés avec un ou plusieurs utilisateurs."
+        },
+        "2": {
+            "nom": "VoiceChannel",
+            "description": "Un canal de discussion de type vocal, où les utilisateurs peuvent parler et écouter les autres utilisateurs."
+        },
+        "3": {
+            "nom": "GroupDMChannel",
+            "description": "Un groupe de discussion directe, où les utilisateurs peuvent échanger des messages privés avec un groupe d'utilisateurs."
+        },
+        "4": {
+            "nom": "CategoryChannel",
+            "description": "Une catégorie de canaux, qui regroupe des canaux de différents types (textuels, vocaux, etc.)."
+        },
+        "5": {
+            "nom": "NewsChannel",
+            "description": "Un canal de nouvelles, où les utilisateurs peuvent recevoir des annonces importantes de la part de leurs serveurs."
+        },
+        "6": {
+            "nom": "StoreChannel",
+            "description": "Un canal de magasin, où les utilisateurs peuvent acheter des articles ou des services à partir de leurs serveurs."
+        },
+        "7": {
+            "nom": "UnknownChannel",
+            "description": "Un canal de type inconnu, qui n'est pas reconnu par Discord."
+        }
+    }
+}
