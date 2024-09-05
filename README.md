@@ -68,6 +68,7 @@ Pour le lancement, il suffit de lancer **supervisor.js** pour garder le gestionn
 
 # A faire
 
+- Permettre d'apporter d'autres tunnels de communication que Discord
 - Variables par défaut dans modulesDatabase.json
 - Variables par défaut dans .env
 - Support des API
@@ -75,39 +76,6 @@ Pour le lancement, il suffit de lancer **supervisor.js** pour garder le gestionn
 - Compléter le fichier de langue
 - Ajouter d'autres langage
 - Créer des exports des modules
-
-## Le fonctionnement du gestionnaire
-
-Ci-dessous, les différents éléments permettant de savoir ce que fait le script, comment le configurer et l'intégrer à votre environnement.
-
-### Les paquets requis
-
-Les paquets requis sont les suivants :
-```txt
-dotenv fs path express child_process discord.js
-```
-
-En clonant ce repository, vous pouvez simplement faire la commande ci-dessous afin de récupérer les modules de NodeJS directement.
-```bash
-npm update
-```
-
-### La configuration requise
-
-Un fichier **.env.sample** est présent dans ce repos pour donner les variables d'environnements par défaut. Il faut le copier ou juste le renommer en **.env**
-
-
-
-
-
-
-# A faire
-
-- Variables par défaut dans modulesDatabase.json
-- Variables par défaut dans .env
-- Support des API
-- Vérification des variables, messages, réponses api
-- Compléter le fichier de langue
-- Ajouter d'autres langage
-- Créer des exports des modules
+- Faire fonctionner la tabulation
+- Corriger les problèmes d'affichage des consoles des scripts en direct après un plantage
 
