@@ -10,3 +10,38 @@ Ayant souvant des scripts tournant sur NodeJS et m'embêtant à chaque fois pour
 
 Discord, c'est un réseau qui est quasiment partout mais surtout celui que j'utilise le plus. L'affichage des salons à certaines personnes uniquement, le fait de pouvoir gérer les permissions simplement, l'api accessible de Discord est un point non négligeable pour ma part pour que je puisse agir vite ou gérer à distance mes scripts sans passer par une machine à distance.
 
+## Le fonctionnement du gestionnaire
+
+Ci-dessous, les différents éléments permettant de savoir ce que fait le script, comment le configurer et l'intégrer à votre environnement.
+
+### Les paquets requis
+
+Les paquets requis sont les suivants :
+```txt
+dotenv fs path express child_process discord.js
+```
+
+En clonant ce repository, vous pouvez simplement faire la commande ci-dessous afin de récupérer les modules de NodeJS directement.
+```bash
+npm update
+```
+
+### La configuration requise
+
+Un fichier **.env.sample** est présent dans ce repos pour donner les variables d'environnements par défaut. Il faut le copier ou juste le renommer en **.env**
+
+
+
+
+
+
+# A faire
+
+- Variables par défaut dans modulesDatabase.json
+- Variables par défaut dans .env
+- Support des API
+- Vérification des variables, messages, réponses api
+- Compléter le fichier de langue
+- Ajouter d'autres langage
+- Créer des exports des modules
+
