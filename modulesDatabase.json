@@ -1,0 +1,14 @@
+{
+  "default": {
+    "autoStart": true,
+    "crashReload": true
+  },
+  "modules": [
+    {
+      "name": "test",
+      "autoStart": true,
+      "crashReload": true,
+      "hide": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@corsinvest/cv4pve-api-javascript": "^7.4.1",
+    "axios": "^1.7.2",
+    "child_process": "^1.0.2",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "https": "^1.0.0",
+    "node-fetch": "^3.3.1",
+    "path": "^0.12.7",
+    "pcm-util": "^3.0.0",
+    "request-promise": "^4.2.6",
+    "rss-parser": "^3.13.0",
+    "simple-git": "^3.24.0",
+    "synology-srm-nodejs-api": "^1.1.0",
+    "tmi.js": "^1.8.5",
+    "tough-cookie": "^4.1.2"
+  }
+}
